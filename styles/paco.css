@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* the header */
+nav {
+  background-color: #000000;
+  padding: 15px;
+}
+
+nav a:hover{
+    color: #658601;
+
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+img {
+  width: 100px;
+  border-radius: 50px;
+  margin: 15px;
+  margin-right: 50px;
+  box-shadow: 0px 0px 25px 0px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #164e70;
+}
+
+.head h1 {
+  color: #fff;
+}
+/* End of the header */
+
+/* main section */
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+  row-gap: 15px;
+  column-gap: 15px;
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 1px solid #fff;
+  /* box-shadow: 0px 5px 10px 0px; */
+}
+
+* {
+  /* border: 1px solid blue; */
+}
+.course {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 25;
+  box-shadow: 0px 0px 20px 0px;
+
+}
+
+.congo {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 25;
+  box-shadow: 0px 0px 20px 0px;
+
+}
+
+.web {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 25;
+  grid-row-end: 30;
+  box-shadow: 0px 0px 20px 0px;
+
+}
+
+main h1 {
+  background-color: #164e70;
+  text-align: center;
+  color: #fff;
+}
+
+.congo .brazzaville{
+    width: 350px;
+    margin-left: 35px;
+    margin-right: 30px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.congo p{
+    text-align: center;
+}
+
+.course ul{
+    margin-left: 35px;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.course li{
+    padding: 10px;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.wrap div{
+    background-color: #010101;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 11px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 5px;
+    border-radius: 9px;
+}
+
+.wrapp{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.wrapp p{
+    background-color: #66301D;
+    color: #fff;
+    padding: 9px;
+    border: 1px solid #000;
+}
+
+.wrapp .color{
+    background-color: #E6EDEF;
+    color: #000;
+    border: 1px solid #E6EDEF;
+}
+/*End of main section */
+
+/* footer */
+footer{
+    background-color: #164e70;
+    margin-top: 20px;
+    padding-top: 55px;
+    text-align: center;
+    color: #fff;
+    font-size: large;
+}
+
+footer img{
+    position: relative;
+    left: 280px;
+    bottom: 70px;
+    border-radius: 0;
+    box-shadow: none;
+}
+/* end of the footer */
+
+/* reponsive */
+@media screen and (max-width: 375px){
+    header .head{
+        width: 100%;
+    }
+}
+
+/* reponsive */
