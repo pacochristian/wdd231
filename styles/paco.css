@@ -188,9 +188,14 @@ footer img{
 /* end of the footer */
 
 /* reponsive */
-@media screen and (max-width: 375px){
-    header .head{
-        width: 100%;
+@media screen and (max-width: 900px){
+    main section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    header h1{
+      color: red;
     }
 }
 
