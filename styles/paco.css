@@ -227,19 +227,19 @@ footer img {
     padding-bottom: 35px;
   }
 }
-
+/* 
 footer .para{
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr; */
 }
-
+/* 
 footer .img{
   display: grid;
   grid-template-columns: 1fr;
   width: 290px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 footer p{
   height: 80px;
