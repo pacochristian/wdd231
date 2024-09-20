@@ -215,23 +215,23 @@ footer img {
     margin-bottom: -20px;
   }
 
-  .congo .brazzaville{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+  .congo .brazzaville {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .wrapp{
+  .wrapp {
     display: grid;
     grid-template-columns: 1fr;
     padding-bottom: 35px;
   }
 }
-/* 
-footer .para{
+
+/* footer .para {
   display: grid;
-  grid-template-columns: 1fr; */
-}
+  grid-template-columns: 1fr;
+} */
 /* 
 footer .img{
   display: grid;
@@ -239,9 +239,9 @@ footer .img{
   width: 290px;
   margin-left: auto;
   margin-right: auto;
-} */
+} */ 
 
-footer p{
-  height: 80px;
+footer p {
+  /* height: 80px; */
 }
 /* reponsive */
