@@ -14,6 +14,54 @@ nav {
   padding: 15px;
 }
 
+.profile i {
+  display: none;
+  /* color: #fff;
+  font-size: 2rem;
+  display: none;
+  margin-inline-start: auto; */
+}
+nav li {
+  list-style: none;
+}
+
+.profile {
+  background-color: #164e70;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon nav {
+  display: block;
+}
+.profile #myBtn {
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  padding: 0.25rem 2vw;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #164e70;
+  border: none;
+  display: none;
+}
+
+.profile h1 {
+  color: #fff;
+}
+/* .head #myBtn {
+  position: absolute;
+  cursor: pointer;
+  font-size: 35px;
+  right: 15px;
+  top: 10px;
+  border: none;
+  display: block;
+  background-color: #164e70;
+  color: #fff;
+} */
+
 nav a:hover {
   background-color: #658601;
   padding: 10px;
@@ -223,17 +271,103 @@ footer img {
 }
 /* end of the footer */
 
+/* ------------------------------ the chamber page ----------------------------- */
+/* header */
+header .chamber {
+  font-size: 35px;
+}
+header .pchamber{
+  background-color: transparent;
+}
+
+header .pchamber a{
+  font-weight: bold;
+  /* color: #3F7A85; */
+  color: #fff;
+  box-shadow: 0px 2px 2px 0px;
+}
+
+header .pchamber ul{
+  color: #fff;
+}
+
+nav ul li a {
+  padding: 10px;
+  font-size: 25px;
+}
+.chamber a {
+  text-decoration: none;
+}
+
+header .pchamber{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+/* end of header */
+
+body{
+  background-image: url(/images/mountains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ------------------------------- End of the chamber page ---------------------- */
 /* reponsive */
 @media screen and (max-width: 700px) {
   /* header */
-  header nav {
-    display: none;
+  header nav #menulist {
+    /* display: none; */
+    width: fit-content;
+    margin: 0 auto 16px;
+    position: absolute;
+    top: 70px;
+    left: 100%;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    background-color: #66301d;
+    transition: 0.4s;
+  }
+
+  i {
+    color: #fff;
+    font-size: 2rem;
+    display: block;
+    margin-inline-start: auto;
+    /* margin-block-end: 8rem; */
+    transition: translate 0.5s ease-in-out;
+  }
+
+  header nav #menulist.is-active {
+    left: 0;
+  }
+  nav li {
+    /* position: absolute; */
+    padding: 20px;
   }
 
   header .head .icon {
     display: block;
     position: absolute;
     right: 20px;
+  }
+
+  .profile #myBtn {
+    position: absolute;
+    /* font-size: 30px; */
+    right: 15px;
+    top: 15px;
+    border: none;
+    display: block;
+  }
+  .profile h1 {
+    font-size: 25px;
+  }
+  .profile img {
+    width: 80px;
   }
 
   .burger-menu {
@@ -250,14 +384,14 @@ footer img {
     /* backdrop-filter: blur(10px); */
     border-radius: 10px;
     transition: 0.5s;
-    display: none;
+    /* display: none; */
   }
 
-  .links a:hover{
+  .links a:hover {
     border-bottom: 5px solid #66301d;
   }
   .head h1 {
-    width: 100%;
+    /* width: 100%; */
   }
 
   /* end of the header */
@@ -308,7 +442,6 @@ footer img {
     width: 100px;
   } */
 
-  
   /* end of the footer */
 
   /* reponsive */

@@ -1,0 +1,29 @@
+nav{
+    background-color: green;
+}
+
+#myBtn{
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+    padding: .25rem 2vw;
+}
+
+ul.menulink li a {
+    display: block;
+    padding: .75rem 2vw;
+    color: #fff;
+    text-decoration: none;
+}
+
+li.current_menu_item a{
+    background-color: rgb(0,0,0,0.2);
+}
+
+ul .menulink {
+    display: none;
+}

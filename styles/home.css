@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* The header */
+.head {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  padding: 10px;
+  font-size: 25px;
+}
+
+.profile {
+  background-color: #164e70;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile h1 {
+  color: #fff;
+}
+.profile img {
+  width: 100px;
+  border-radius: 50px;
+  margin: 15px;
+  margin-right: 50px;
+  box-shadow: 0px 0px 25px 0px;
+}
+
+nav {
+  background-color: #000000;
+  padding: 15px;
+}
+
+nav ul {
+  justify-content: space-between;
+  margin-left: 99px;
+  margin-right: 99px;
+}
+
+nav ul a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+nav ul li {
+  list-style: none;
+}
+
+nav a:hover {
+  background-color: #658601;
+  padding: 10px;
+  border-radius: 8px;
+}
+div #myBtn {
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  padding: 0.25rem 2vw;
+  font-size: 2rem;
+  display: none;
+}
+/* End of the header */
+
+@media screen and (max-width: 700px) {
+  .profile img {
+    width: 65px;
+  }
+
+  .profile h1 {
+    font-size: 25px;
+  }
+
+  .profile {
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin: 15px; */
+  }
+  div #myBtn {
+    position: absolute;
+    font-size: 10px;
+    right: 15px;
+    top: 10px;
+    border: none;
+    display: block;
+  }
+
+  nav {
+    /* display: none; */
+  }
+
+  nav ul{
+    font-size: 20px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    background-color: #658601;
+  }
+
+  nav ul li{
+    padding: 10px;
+  }
+}

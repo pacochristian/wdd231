@@ -1,0 +1,35 @@
+[
+  {
+    "family_name": "KIFOUETO",
+    "Date_the_family_moved": "5/09/1993",
+    "number_of_people": 5,
+    "visited_by_bishopric": true,
+    "individual_famikymembers": [
+      {
+        "name": "John",
+        "gender": "male",
+        "birthdate": "8/december/1990"
+      },
+      {
+        "name": "Caroline",
+        "gender": "female",
+        "birthdate": "20/december/1993"
+      },
+      {
+        "name": "morel",
+        "gender": "female",
+        "birthdate": "15/october/1995"
+      },
+      {
+        "name": "fany",
+        "gender": "female",
+        "birthdate": "18/october/2001"
+      },
+      {
+        "name": "Gary",
+        "gender": "male",
+        "birthdate": "18/october/2005"
+      }
+    ]
+  }
+]

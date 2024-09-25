@@ -94,3 +94,21 @@ const courses = [
 ]
 
 // end of course list array 
+
+// hamburger menu
+
+const menulist = document.getElementById("menulist")
+
+
+function myFunction() {
+    const humberger = document.getElementById("myBtn");
+    if (humberger.style.display === "none") {
+        humberger.style.display = "block";
+    } else{
+        humberger.style.display = "none";
+    }
+}
+
+// const menulist = document.getElementById("menulist")
+// menulist.style.maxHeight = "0px"
+// End of hamburger menu
